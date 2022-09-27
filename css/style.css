@@ -33,7 +33,7 @@ nav ul li a:hover {color: #ccc; text-decoration: underline;}
 /* SECTION2 */
 .section2 {padding: 20px; background: rgb(57, 57, 57); color: #fff; text-align: center;}
 .section2 h1 {font-size: 50px; text-shadow: #000 3px 3px 3px;}
-.section2 p {margin-top: 15px; text-align: left;}
+.section2 p {margin-top: 15px; text-align: left; text-align: center;}
 
 /* SECTION 3 */
 .section3 {
