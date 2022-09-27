@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; font-family: sans-serif, Arial, Helvetica;}
+body {background: #fff;}
+
+/* NAV */
+nav {
+    background: #111;
+    color: #fff;
+    padding: 25px;
+}
+
+/* Tira o Sublinhado o text-decoration do nome "ACME Production" */ 
+nav a {color: #fff; text-decoration: none;}
+
+/* Colocou o menu alinhado do lado direito e com o nome da página */ 
+nav ul {list-style: none; float: right;}
+
+/* Espaçou o menu com os nomes */ 
+nav ul li a {display: inline; margin-right: 15px; color: #fff; text-decoration: none;}
+nav ul li a:hover {color: #ccc; text-decoration: underline;}
+
+/* SECTION 1 */
+.section1 {
+    background: url("../img/radio-microphone-1920.jpg");
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.section1 h1 {color: #fff; text-align: right; text-shadow: #000 3px 3px 3px;}
+.section1 h3 {color: #fff; text-align: right; text-shadow: #000 2px 2px 2px; font-size: 15px;}
+
+/* SECTION2 */
+.section2 {padding: 20px; background: rgb(57, 57, 57); color: #fff; text-align: center;}
+.section2 h1 {font-size: 50px; text-shadow: #000 3px 3px 3px;}
+.section2 p {margin-top: 15px; text-align: left;}
+
+/* SECTION 3 */
+.section3 {
+    background: url("../img/e-mail_1920.jpg") no-repeat #403D58;
+    padding: 20px;
+    border-bottom:1px solid #262626;
+    color:#fff;
+    text-shadow: #000 2px 2px 2px;
+}
+
+div.section3 h1 {text-align: center; border-bottom:1px solid silver; padding:10px; margin:5px auto; max-width:500px; font-size: 50px;}
+div.section3 form {margin: auto; text-align: center;}
+div.section3 form p { padding: 10px;}
+div.section3 form input {width: 300px; border: 2px solid #403D58; padding: 10px; border-radius: 10px;}
+div.section3 form textarea {width: 302px; padding: 10px;border: 2px solid #403D58; color: #000; font-size:20px;border-radius: 10px;}
+
+
+
+footer {background: #303030; padding: 30px; text-align:center; color:#fff;}
+footer ul {list-style: none;}
+footer ul li {display:inline; padding: 5px;}
+footer ul li a {text-decoration:none; color:#f1f1f1; font-size:40px;}
+footer ul li a:hover {text-decoration:none; color:#BBE1EE;}
+
+.search {cursor:pointer;}
+hr {margin: auto 300px;}
+
+/* FOOTER */
+footer {padding: 30px; background: rgb(57, 57, 57); color: #fff; text-align: center;}
+
+@media screen and (min-width: 768px){
+    .section1 {padding: 340px 100px;} 
+    .section1 h1 {color: #fff; font-size: 80px; text-align: right; text-shadow: #000 3px 3px 3px;}
+    .section1 h3 {color: #fff; font-size: 30px; text-align: right; text-shadow: #000 2px 2px 2px;}
+
+    .section2 {padding: 100px;}
+
+    div.section3 form textarea, div.section3 form input  {width: 600px;}
+    div.section3 {padding: 200px;}
+}
+

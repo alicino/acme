@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; font-family: sans-serif, Arial, Helvetica;}
+body {background: #fff;}
+
+/* NAV */
+nav {
+    background: #111;
+    color: #fff;
+    padding: 25px;
+}
+
+/* Tira o Sublinhado o text-decoration do nome "ACME Production" */ 
+nav a {color: #fff; text-decoration: none;}
+
+/* Colocou o menu alinhado do lado direito e com o nome da página */ 
+nav ul {list-style: none; float: right;}
+
+/* Espaçou o menu com os nomes */ 
+nav ul li a {display: inline; margin-right: 15px; color: #fff; text-decoration: none;}
+nav ul li a:hover {color: #ccc; text-decoration: underline;}
+
+/* SECTION 1 */
+.section1 {
+    background: url("../img/analytics-1920.jpg");
+    background-attachment: fixed;
+    background-size: 1920px 636px;
+}
+
+.section1 h1 {color: #fff; text-align:left; text-shadow: #000 3px 3px 3px;}
+.section1 h3 {color: #fff; text-align:left; text-shadow: #000 2px 2px 2px; font-size: 15px;}
+
+/* SECTION2 */
+.section2 {padding: 10px; background: rgb(57, 57, 57); color: #fff; text-align: center;}
+.section2 h1 {font-size: 50px; text-shadow: #000 3px 3px 3px;}
+.section2 p {margin-top: 15px; text-align: center;}
+
+/* SECTION 3 */
+.section3 {
+    align-content: center;
+    padding: 40px;
+}
+
+.tableauPlaceholder {margin: auto;}
+
+footer {background: #303030; padding: 30px; text-align:center; color:#fff;}
+footer ul {list-style: none;}
+footer ul li {display:inline; padding: 5px;}
+footer ul li a {text-decoration:none; color:#f1f1f1; font-size:40px;}
+footer ul li a:hover {text-decoration:none; color:#BBE1EE;}
+
+.search {cursor:pointer;}
+hr {margin: auto 300px;}
+
+/* FOOTER */
+footer {padding: 30px; background: rgb(57, 57, 57); color: #fff; text-align: center;}
+
+@media screen and (min-width: 768px){
+    .section1 {padding: 180px 100px;} 
+    .section1 h1 {color: #fff; font-size: 80px; text-align: left; text-shadow: #000 3px 3px 3px; padding: 15px;}
+    .section1 h3 {color: #fff; font-size: 30px; text-align: left; text-shadow: #000 2px 2px 2px; padding: 15px 20px;}
+
+    .section2 {padding: 50px;}
+
+    div.section3 {border: 1px solid rgb(204, 204, 204); padding-top: 50px ; }
+}
+

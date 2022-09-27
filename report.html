@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ACME Reports</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tableau Demo Embedded">
+    <link rel="stylesheet" href="css/style_rep.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Start NAV -->
+    <nav>
+
+        <a href="index.html">ACME Production</a>
+
+        <ul>
+            <li>
+                <a href="#about"><i class="fas fa-users"></i>About</a>
+                <a href="services.html">Services</a>
+                <a href="report.html">Report</a>
+                <a href="index.html#contact">Contact</a>
+            </li>
+        </ul>
+
+
+
+    </nav>
+
+    <!-- Section 1 -->
+    <div class="section1">
+        <h1>ACME Reports</h1>
+        <h3>Dashboards Updated</h3>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section2" id="disclaimer">
+        <h1>About Reports</h1>
+        <p><strong>Disclaimer</strong></p>
+        <p>Our panels are for internal use and/or with authorized customers for access. Do not use or disclose without
+            prior authorization.</p>
+        <p>
+            Analytical panel of the client company on the accesses to the environment and also the conversions of leads
+            in the environment. Access identified by countries, devices and business models</p>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section3" id="dashboard">
+
+        <!-- START TABLEAU CODE -->
+        <script type='text/javascript' src='https://us-west-2b.online.tableau.com/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1266px; height: 827px;'>
+            <object class='tableauViz' width='1266' height='827'>
+                <param name='host_url' value='https%3A%2F%2Fus-west-2b.online.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='&#47;t&#47;alicinomourasite' />
+                <param name='name' value='ACMEPresentation&#47;Overview' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='showAppBanner' value='false' />
+            </object>
+        </div>
+        <!-- END TABLEAU CODE -->
+    </div>
+
+    <footer>
+
+        &reg; All rights reserved
+
+    </footer>
+
+</body>
+
+</html>
