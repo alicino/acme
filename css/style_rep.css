@@ -22,16 +22,19 @@ nav ul li a:hover {color: #ccc; text-decoration: underline;}
 
 /* SECTION 1 */
 .section1 {
+    background-color: red;
     background: url("../img/analytics-1920.jpg");
     background-attachment: fixed;
-    background-size: 1920px 636px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.section1 h1 {color: #fff; text-align:left; text-shadow: #000 3px 3px 3px;}
+.section1 h1 {color: #fff; text-align:left; text-shadow: #000 3px 3px 3px; margin-top: 85px;}
 .section1 h3 {color: #fff; text-align:left; text-shadow: #000 2px 2px 2px; font-size: 15px;}
 
 /* SECTION2 */
-.section2 {padding: 10px; background: rgb(57, 57, 57); color: #fff; text-align: center;}
+.section2 {padding: 1px; background: rgb(57, 57, 57); color: #fff; text-align: center;}
 .section2 h1 {font-size: 50px; text-shadow: #000 3px 3px 3px;}
 .section2 p {margin-top: 15px; text-align: center;}
 

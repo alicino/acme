@@ -24,7 +24,9 @@ nav ul li a:hover {color: #ccc; text-decoration: underline;}
 .section1 {
     background: url("../img/radio-microphone-1920.jpg");
     background-attachment: fixed;
-    padding: 20px;
+    padding: 2px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .section1 h1 {color: #fff; text-align: right; text-shadow: #000 3px 3px 3px;}
